@@ -8,6 +8,9 @@ import { HeaderComponent } from './header/header.component';
 import { ButtonHeaderComponentComponent } from './button-header-component/button-header-component.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { NavMenuItemComponent } from './nav-menu-item/nav-menu-item.component';
+import { PresentationComponent } from './presentation/presentation.component';
+import { PresentationTextComponent } from './presentation-text/presentation-text.component';
+import { PresentationMobileComponent } from './presentation-mobile/presentation-mobile.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { NavMenuItemComponent } from './nav-menu-item/nav-menu-item.component';
     HeaderComponent,
     ButtonHeaderComponentComponent,
     NavMenuComponent,
-    NavMenuItemComponent
+    NavMenuItemComponent,
+    PresentationComponent,
+    PresentationTextComponent,
+    PresentationMobileComponent
   ],
   imports: [
     BrowserModule,
