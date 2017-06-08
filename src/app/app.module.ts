@@ -11,6 +11,7 @@ import { NavMenuItemComponent } from './nav-menu-item/nav-menu-item.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { PresentationTextComponent } from './presentation-text/presentation-text.component';
 import { PresentationMobileComponent } from './presentation-mobile/presentation-mobile.component';
+import { DownloadSectionComponent } from './download-section/download-section.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PresentationMobileComponent } from './presentation-mobile/presentation-
     NavMenuItemComponent,
     PresentationComponent,
     PresentationTextComponent,
-    PresentationMobileComponent
+    PresentationMobileComponent,
+    DownloadSectionComponent
   ],
   imports: [
     BrowserModule,
