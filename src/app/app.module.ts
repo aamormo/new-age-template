@@ -12,6 +12,7 @@ import { PresentationComponent } from './presentation/presentation.component';
 import { PresentationTextComponent } from './presentation-text/presentation-text.component';
 import { PresentationMobileComponent } from './presentation-mobile/presentation-mobile.component';
 import { DownloadSectionComponent } from './download-section/download-section.component';
+import { DownloadSectionBadgesComponent } from './download-section-badges/download-section-badges.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { DownloadSectionComponent } from './download-section/download-section.co
     PresentationComponent,
     PresentationTextComponent,
     PresentationMobileComponent,
-    DownloadSectionComponent
+    DownloadSectionComponent,
+    DownloadSectionBadgesComponent
   ],
   imports: [
     BrowserModule,
