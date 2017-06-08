@@ -14,6 +14,9 @@ import { PresentationMobileComponent } from './presentation-mobile/presentation-
 import { DownloadSectionComponent } from './download-section/download-section.component';
 import { DownloadSectionBadgesComponent } from './download-section-badges/download-section-badges.component';
 import { FeaturesSectionComponent } from './features-section/features-section.component';
+import { FeatureHeaderComponent } from './feature-header/feature-header.component';
+import { FeatureMobileComponent } from './feature-mobile/feature-mobile.component';
+import { FeatureDescriptionComponent } from './feature-description/feature-description.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { FeaturesSectionComponent } from './features-section/features-section.co
     PresentationMobileComponent,
     DownloadSectionComponent,
     DownloadSectionBadgesComponent,
-    FeaturesSectionComponent
+    FeaturesSectionComponent,
+    FeatureHeaderComponent,
+    FeatureMobileComponent,
+    FeatureDescriptionComponent
   ],
   imports: [
     BrowserModule,
