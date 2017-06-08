@@ -17,6 +17,7 @@ import { FeaturesSectionComponent } from './features-section/features-section.co
 import { FeatureHeaderComponent } from './feature-header/feature-header.component';
 import { FeatureMobileComponent } from './feature-mobile/feature-mobile.component';
 import { FeatureDescriptionComponent } from './feature-description/feature-description.component';
+import { GetStartedSectionComponent } from './get-started-section/get-started-section.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { FeatureDescriptionComponent } from './feature-description/feature-descr
     FeaturesSectionComponent,
     FeatureHeaderComponent,
     FeatureMobileComponent,
-    FeatureDescriptionComponent
+    FeatureDescriptionComponent,
+    GetStartedSectionComponent
   ],
   imports: [
     BrowserModule,
