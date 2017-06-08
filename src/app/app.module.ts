@@ -18,6 +18,7 @@ import { FeatureHeaderComponent } from './feature-header/feature-header.componen
 import { FeatureMobileComponent } from './feature-mobile/feature-mobile.component';
 import { FeatureDescriptionComponent } from './feature-description/feature-description.component';
 import { GetStartedSectionComponent } from './get-started-section/get-started-section.component';
+import { SocialNetworksSectionComponent } from './social-networks-section/social-networks-section.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { GetStartedSectionComponent } from './get-started-section/get-started-se
     FeatureHeaderComponent,
     FeatureMobileComponent,
     FeatureDescriptionComponent,
-    GetStartedSectionComponent
+    GetStartedSectionComponent,
+    SocialNetworksSectionComponent
   ],
   imports: [
     BrowserModule,
