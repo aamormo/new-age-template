@@ -18,7 +18,7 @@
         color: $gray-darker;
     }
     .navbar-nav {
-        > li {
+        li {
             > a {
                 font-size: 11px;
                 @include alt-font;
@@ -49,8 +49,8 @@
                 color: white;
             }
         }
-        .navbar-nav > li > a,
-        .navbar-nav > li > a:focus {
+        .navbar-nav li > a,
+        .navbar-nav li > a:focus {
             color: fade-out(white, .3);
             &:hover {
                 color: white;
@@ -66,8 +66,8 @@
                     color: $theme-primary;
                 }
             }
-            .navbar-nav > li > a,
-            .navbar-nav > li > a:focus {
+            .navbar-nav li > a,
+            .navbar-nav li > a:focus {
                 color: $gray-darker;
                 &:hover {
                     color: $theme-primary;

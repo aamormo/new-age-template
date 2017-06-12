@@ -1,1 +1,17 @@
 <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+<div class="collapse navbar-collapse" id="navbarExample">
+    <ul class="navbar-nav ml-auto">
+    	<app-nav-menu-item *ngFor="let menuItem of menuItems" [menuItem]="menuItem"></app-nav-menu-item>
+    	<!--
+        <li class="nav-item">
+            <a class="nav-link" href="#download">Download2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        -->
+    </ul>
+</div>

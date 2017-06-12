@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavMenuComponent implements OnInit {
 
+	menuItems = [['download', 'Download'], ['features', 'Features'], ['contact', 'Contact']];
+
   constructor() { }
 
   ngOnInit() {

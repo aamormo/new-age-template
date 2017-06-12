@@ -2,7 +2,8 @@
     "use strict"; // Start of use strict
 
     // Smooth scrolling using jQuery easing
-    $('a[href*="#"]:not([href="#"])').click(function() {
+    //$('a[href*="#"]:not([href="#"])').on('click', function() {
+    $(document).on('click', 'a[href*="#"]:not([href="#"])', function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -22,7 +23,7 @@
     });
 
     // Closes responsive menu when a link is clicked
-    $('.navbar-collapse>ul>li>a').click(function() {
+    $(document).on('click', '.navbar-collapse>ul li>a', function() {
         $('.navbar-collapse').collapse('hide');
     });
 
